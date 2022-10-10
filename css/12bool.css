@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+}
+
+.container-2{
+    margin-top: 20px;
+}
+
+.container-3{
+    margin-top: 20px;
+}
+
+.col-1{
+    width: calc(100% / 12 * 1);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-5{
+    width: calc(100% / 12 * 5);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-6{
+    width: calc(100% / 12 * 6);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-12{
+    width: calc(100% / 12 * 12);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-11{
+    width: calc(100% / 12 * 11);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-10{
+    width: calc(100% / 12 * 10);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-9{
+    width: calc(100% / 12 * 9);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-3{
+    width: calc(100% / 12 * 3);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.col-7{
+    width: calc(100% / 12 * 7);
+    margin: 1px;
+    height: 5vh;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+}
+
+.box2{
+    display: flex;
+}
+
+.box2 .col-6{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 7vh;
+}
+
+.box2 .col-6 .col-2{
+    background-color: lime;
+}
+
+.box2 .col-6 .col-8{
+    background-color: lime;
+}
+
+.box2 .col-6 .col-6{
+    background-color: lime;
+    height: 5vh;
+}
